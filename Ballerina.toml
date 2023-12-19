@@ -1,0 +1,8 @@
+[package]
+org = "rashmin"
+name = "dumiswagger"
+version = "0.1.0"
+distribution = "2201.5.3"
+
+[build-options]
+observabilityIncluded = true
