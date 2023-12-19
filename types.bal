@@ -26,20 +26,20 @@ public type Locations record {
 };
 
 public type Country record {
-    string? bessemerCd;
-    string? regionCommissionRate;
-    string? isoCurrencyCd;
-    string? riskLevel;
-    string? riskRank;
-    string? regionName;
-    string? fipsCd;
-    string? commisionRate;
-    string? regionCd;
-    string? currencyName;
-    string? name;
-    string? isoCd;
-    string? taxCd;
-    string? euMember;
+    string bessemerCd?;
+    string regionCommissionRate?;
+    string isoCurrencyCd?;
+    string riskLevel?;
+    string riskRank?;
+    string regionName?;
+    string fipsCd?;
+    string commisionRate?;
+    string regionCd?;
+    string currencyName?;
+    string name?;
+    string isoCd?;
+    string taxCd?;
+    string euMember?;
 };
 
 type CountryDO record {
@@ -47,7 +47,7 @@ type CountryDO record {
     string? iso_country_code;
     string? fips_country_code;
     string? bessemer_country_code;
-    string? tax_country_codel
+    string? tax_country_codel;
     string? currecy_name;
     string? iso_currency_code;
     string? risk_rank;
@@ -60,12 +60,12 @@ type CountryDO record {
 };
 
 public type Location record {
-    string? locationName;
-    string? depoId;
-    string? locationId;
-    string? locationIdGp;
-    string? locationCode;
-    string? depoStorageAcctNo;
+    string locationName?;
+    string depoId?;
+    string locationId?;
+    string locationIdGp?;
+    string locationCode?;
+    string depoStorageAcctNo?;
 };
 
 public type LocationDO record {
